@@ -76,7 +76,7 @@
     <div class="middle-items container">
   	<div class="row">
   	
-<div class="card1 col-lg-4 col-12" data-aos="fade-right" data-aos-delay="200">
+<div class="card1 col-lg-4 col-12" data-aos="fade-down" data-aos-delay="200">
   	<div class="card" style="width:100%">
   <img class="card-img-top" src="images/packing.1.jpg" alt="Card image">
   <div class="card-body">
@@ -84,7 +84,7 @@
 </div>
 </div>
  </div>
- <div class=" col-lg-4 col-12" data-aos="zoom-out-up" data-aos-delay="200">
+<div class="card1 col-lg-4 col-12" data-aos="fade-down" data-aos-delay="200">
   	<div class="card" style="width:100%">
   <img class="card-img-top" src="images/househld.1.jpg" alt="Card image">
   <div class="card-body">
@@ -92,7 +92,7 @@
 </div>
 </div>
  </div>
-<div class="card3 col-lg-4 col-12"  data-aos="fade-left" data-aos-delay="200">
+<div class="card1 col-lg-4 col-12" data-aos="fade-down" data-aos-delay="200">
   <div class="card" style="width:100%">
   <img class="card-img-top" src="images/local.jpg" alt="Card image">
   <div class="card-body">
@@ -107,7 +107,7 @@
  
  
  <div class="row">
-<div class="card2 col-lg-4 col-12" data-aos="fade-right" data-aos-delay="200">
+<div class="card1 col-lg-4 col-12" data-aos="fade-down" data-aos-delay="200">
   	<div class="card" style="width:100%">
   <img class="card-img-top" src="images/loading.1.jpg" alt="Card image">
   <div class="card-body">
@@ -115,7 +115,7 @@
 </div>
 </div>
  </div>
-  <div class=" col-lg-4 col-12" data-aos="zoom-out-up" data-aos-delay="200">
+<div class="card1 col-lg-4 col-12" data-aos="fade-down" data-aos-delay="200">
   	<div class="card" style="width:100%">
   <img class="card-img-top" src="images/storage.1.jpg" alt="Card image">
   <div class="card-body">
@@ -123,7 +123,7 @@
 </div>
 </div>
  </div>
-<div class="card3 col-lg-4 col-12"  data-aos="fade-left" data-aos-delay="200">
+<div class="card1 col-lg-4 col-12" data-aos="fade-down" data-aos-delay="200">
   	<div class="card" style="width:100%">
   <img class="card-img-top" src="images/safety.1.jpg" alt="Card image">
   <div class="card-body">
@@ -149,7 +149,7 @@
 <div class="container">
   	<div class="row">
   	
-<div class="process_all col-lg-4 col-12" data-aos="flip-left"  data-aos-delay="200">
+<div class="process_all col-lg-4 col-12" data-aos="flip-right"  data-aos-delay="200">
   	<div class="process_card" style="width:100%">
   <div class="service-icons"><a href="#"><i class="fa-4x fa fa-briefcase" aria-hidden="true"></i></a></div>
 	
@@ -159,7 +159,7 @@
 </div>
 </div>
  </div>
-<div class="process_all col-lg-4 col-12" data-aos="flip-up"  data-aos-delay="200">
+<div class="process_all col-lg-4 col-12" data-aos="flip-right"  data-aos-delay="200">
   	<div class="process_card" style="width:100%">
   <div class="service-icons"><a href="#"><i class="fa-4x fa fa-anchor" aria-hidden="true"></i></a></div>
 	
@@ -202,15 +202,15 @@
 	
 	<div class="aboutus-work container">
 	<div class="aboutus-work-heading ">
-		<h1 class="text-center font-weight-bold">More then 2000 work done</h1>
+		<h1 class="text-center font-weight-bold">More then 1000 work done</h1>
 	</div>
 	<div class="container d-flex justify-content-around align-items-center text-center">
 	<div>
-		<h1 class="count">1500</h1>
+		<h1 class="count">999</h1>
 		<p>PROJECTS</p>
 	</div>	
 	<div>
-		<h1 class="count">10</h1>
+		<h1 class="count">5</h1>
 		<p>EXPERIENCE</p>
 	</div>	
 	<div>
@@ -376,34 +376,40 @@
 	<h1>CONTACT US</h1>
 </div>
 <div class="container contact-form" data-aos="zoom-in" data-aos-delay="200">
-
             <div class="contact-image">
                 <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
             </div>
-            <form method="post">
+          <form onSubmit="return rajeshform()">
                 <h3>Drop Us a Message</h3>
                <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                            <input id="uname" type="text" name="uname" class="form-control" placeholder="Your Name *" value="" />
+                             <div id="error" class="text"></div>
                         </div>
                         <div class="form-group">
-                            <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                            <input id="email" type="text" name="email" class="form-control" placeholder="Your Email *" value="" />
+                            <div id="error_email" class="text"></div>
                         </div>
                         <div class="form-group">
-                            <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                            <input id="phone" type="text" name="phone" class="form-control" placeholder="Your Phone *" value="" />
+                            <div id="error_phone" class="text"></div>
                         </div>
                         <div class="form-group">
                             <input type="submit" name="btnSubmit" class="btnContact" value="Send" />
+                           
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                            <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                            <textarea id="message" name="message" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                           <div id="error_message" class="text"></div>
                         </div>
                     </div>
                 </div>
             </form>
+</div>
+</div>
 </div>
 </div>
  
@@ -592,8 +598,8 @@
   <script>
 	  jQuery(document).ready(function($) {
             $('.count').counterUp({
-                delay: 5,
-                time: 3000
+                delay: 200,
+                time: 5000
             });
         });
 	  
@@ -616,9 +622,62 @@
 		  document.body.scrollTop = 0; // for safari
 		  document.documentElement.scrollTop = 0; // for chrome,firefox,opera
 	  }
+	 
 	  
+	  //Animate on scroll
 	    AOS.init();
 	  
+	 
+	  
+	   //contact form
+	   function rajeshform(){		   
+		     
+		   var uname = document.getElementById('uname').value;
+	       var email = document.getElementById('email').value;
+		   var phone = document.getElementById('phone').value;
+		   var phone = document.getElementById('message').value;
+	       
+		   document .getElementById('error').style.display="none";
+		   document .getElementById ('error_email').style.display="none"; 
+		   document .getElementById ('error_phone').style.display="none";
+		   document .getElementById ('error_message').style.display="none";
+		   
+		   var check=1;
+		   
+		   
+		   if (uname ===""){
+			document .getElementById('error').innerHTML="Name is required";
+			 document .getElementById('error').style.display="block";
+			  check=0;
+		
+		 }
+		    
+		  if (email ===""){
+			document .getElementById('error_email').innerHTML="Email is required";
+			 document .getElementById('error_email').style.display="block";
+			  check=0;
+		
+		 }
+		  
+		  if (phone ===""){
+			document .getElementById('error_phone').innerHTML="Phoneno. is required";
+			 document .getElementById('error_phone').style.display="block";
+			  check=0;
+		
+		 }
+	      
+		  if (phone ===""){
+			document .getElementById('error_message').innerHTML="Message is required";
+			 document .getElementById('error_message').style.display="block";
+			  check=0;
+		
+		 }
+		  if(check === 0){
+                    return false;
+                }	
+			
+
+	   }
 	  
 	  </script>
   </body>
