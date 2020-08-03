@@ -1,686 +1,481 @@
- <!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<!-- FONT-AWESOME CSS -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.min.css" integrity="sha512-FEQLazq9ecqLN5T6wWq26hCZf7kPqUbFC9vsHNbXMJtSZZWAcbJspT+/NEAQkBfFReZ8r9QlA9JHaAuo28MTJA==" crossorigin="anonymous" />
-<!-- FONT-STYLE CSS -->
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap" rel="stylesheet"> 
-<!-- STYLE CSS -->
-<link href="css/style.css" rel="stylesheet" type="text/css">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+html {
+  scroll-behavior: smooth;
+}
 
-  </head>
-  <body>
-  
-  
-   <!--header Start-->
-   
-<div class="header id=topheader">
-<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-<div class="container text-uppercase p-3">
- 
-   <a class="navbar-brand" href="#">MOVERS</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+body{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto text-uppercase">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#aboutdiv">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#servicediv">Services</a>
-      </li>
-       <li class="nav-item">
-        <a class="nav-link" href="#contactdiv">Contact</a>
-      </li>
-     
-    </ul>
-  </div>
-</div>
-	</nav>
-<section class="header-section">
-	<div class="center-div">
-		<h1 class="font-weight-bold">Welcome To Movers</h1>
-		<div class="header-buttons">
-			<a href="#">About us</a>
-			<a href="#">Contact us</a>
-		</div>
-	</div>
-</section>
-
- </div> 
-  
-      
-   
-   
-   <!--header End-->
-  
-   <!--middle Start-->
-     
-  <div class="middle" id="servicediv">
-   <div class="middle-heading">
-   	<h1>OUR SERVICES</h1>
-   </div>
-    
-    <div class="middle-items container">
-  	<div class="row">
-  	
-<div class="card1 col-lg-4 col-12" data-aos="fade-down" data-aos-delay="200">
-  	<div class="card" style="width:100%">
-  <img class="card-img-top" src="images/packing.1.jpg" alt="Card image">
-  <div class="card-body">
-    <a href="#">Packing Service</a>
-</div>
-</div>
- </div>
-<div class="card1 col-lg-4 col-12" data-aos="fade-down" data-aos-delay="200">
-  	<div class="card" style="width:100%">
-  <img class="card-img-top" src="images/househld.1.jpg" alt="Card image">
-  <div class="card-body">
-    <a href="#">Household Shifting</a>
-</div>
-</div>
- </div>
-<div class="card1 col-lg-4 col-12" data-aos="fade-down" data-aos-delay="200">
-  <div class="card" style="width:100%">
-  <img class="card-img-top" src="images/local.jpg" alt="Card image">
-  <div class="card-body">
-    <a href="#">Local shifting</a>
-</div>
-</div>
- </div>
-    </div>
- 
- 
- 
- 
- 
- <div class="row">
-<div class="card1 col-lg-4 col-12" data-aos="fade-down" data-aos-delay="200">
-  	<div class="card" style="width:100%">
-  <img class="card-img-top" src="images/loading.1.jpg" alt="Card image">
-  <div class="card-body">
-    <a href="#">Loading&Unloading</a>
-</div>
-</div>
- </div>
-<div class="card1 col-lg-4 col-12" data-aos="fade-down" data-aos-delay="200">
-  	<div class="card" style="width:100%">
-  <img class="card-img-top" src="images/storage.1.jpg" alt="Card image">
-  <div class="card-body">
-    <a href="#">Storage Service</a>
-</div>
-</div>
- </div>
-<div class="card1 col-lg-4 col-12" data-aos="fade-down" data-aos-delay="200">
-  	<div class="card" style="width:100%">
-  <img class="card-img-top" src="images/safety.1.jpg" alt="Card image">
-  <div class="card-body">
-    <a href="#">Safety Service</a>
-</div>
-</div>
- </div>
-    </div>
-   
-       </div>
-	     </div>
-	     
-   <!--middle End-->
-	     
-   <!--process Start-->
-
-<div class="process" id="processdiv">
-	<div class="process_heading">
-		<h1>PROCESS OF</h1>
-		<P>HOW WE WORKS</P>
-	</div>
-	<div class="process-container pb-5 pt-5">
-<div class="container">
-  	<div class="row">
-  	
-<div class="process_all col-lg-4 col-12" data-aos="flip-right"  data-aos-delay="200">
-  	<div class="process_card" style="width:100%">
-  <div class="service-icons"><a href="#"><i class="fa-4x fa fa-briefcase" aria-hidden="true"></i></a></div>
+a, b, div, ul, li {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-tap-highlight-color: transparent;
 	
-  <div class="process_body">
-   <h2>PACKAGING</h2>
-	<p align="center">Whether local or international, specialized packaging with safe materials for making your move as easy, secure and stress-free as possible</p>
-</div>
-</div>
- </div>
-<div class="process_all col-lg-4 col-12" data-aos="flip-right"  data-aos-delay="200">
-  	<div class="process_card" style="width:100%">
-  <div class="service-icons"><a href="#"><i class="fa-4x fa fa-anchor" aria-hidden="true"></i></a></div>
+}
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+h1{
+
+	font-family: 'Playfair Display SC', serif;
+}
+h3{
+	color: #FFFFFF;
+	font-family: 'Playfair Display SC', serif;
+}
+.i{
+	color:#110011;
+}
+p{
+	font-size: 0.6rem;
+}
+
+.header{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3)), url(
+	../images/alex-mecl-0Sd09h2Kbso-unsplash.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	opacity: .8;
 	
-  <div class="process_body">
-   <h2>LOADING&UNLOADING</h2>
-	<p align="center">Highly systematic, organized, and professional loading and unloading of goods and cargo for maximum protection and safety of your house move</p>
-</div>
-</div>
- </div>
-<div class="process_all col-lg-4 col-12" data-aos="flip-right"  data-aos-delay="200">
-  	<div class="process_card" style="width:100%">
-  <div class="service-icons"><a href="#"><i class="fa-4x fa fa-truck" aria-hidden="true"></i></a></div>
+}
+.header-section{
+	width: 100%;
+	height: inherit;
+	color: white;
+	text-align: center;
+	position: relative;
+}
+
+
+.nav-item a{
+	margin-left: 20px !important;
+	margin-right: 20px !important;
+	font-size: 15px;
+	word-spacing: 2px;
+	color: #000000;
+	transition: 0.3s;
+}
+.dropdown-menu a{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.nav-item a:hover{
+	color:#16c9f6;
+	transition: 0.3s;
 	
-  <div class="process_body">
-   <h2>DELIVERY</h2>
-	<p align="center">On-time delivery with utmost and efficient care while transporting the expensive commodities and contents of your house or home in our fleet
-</p>
-</div>
-</div>
- </div>
-    </div>
-</div>
-</div>
- </div>
-  
-   <!--process End-->
+}
 
-  
-   <!--aboutus Start-->
- 
-<div class="aboutus" id="aboutdiv">
-	<div class="aboutus_heading">
-		<h1>ABOUT US</h1>
-	</div>
-	<div class="container">
-	<div class="iframe-container">
-	<iframe src="https://www.youtube.com/embed/kj7ixi2lqF4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</div>
-	</div>
+.navbar-brand{
+	font-size: 30px;
+	font-weight:bolder;
+	word-spacing: 2px;
+	color: #000000;
 	
-	<div class="aboutus-work container">
-	<div class="aboutus-work-heading ">
-		<h1 class="text-center font-weight-bold">More then 1000 work done</h1>
-	</div>
-	<div class="container d-flex justify-content-around align-items-center text-center">
-	<div>
-		<h1 class="count">999</h1>
-		<p>PROJECTS</p>
-	</div>	
-	<div>
-		<h1 class="count">5</h1>
-		<p>EXPERIENCE</p>
-	</div>	
-	<div>
-		<h1 class="count">28</h1>
-		<p>STATE COVERED</p>
-	</div>	
-	</div>
+}
+.navbar-brand:hover{
+	color: #000000;
+}
 	
-	</div>
-
-	  </div>
+.center-div{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	
-	  
-  <!--aboutus End-->
+}
+.header-buttons a{
+	border: 1px solid #ffffff;
+	border-radius: 100px;
+	margin: 0 5px;
+	padding: 12px 20px;
+	outline: none;
+	color: #ffffff;
+	font-size: 1rem;
+	font-weight: 400;
+	text-align: center;
+	
+	
+}
+.header-buttons a:hover{
+	color: #05d1c0;
+	background: #ffffff;
+	text-decoration: none;
+	box-shadow: 0 0 20px 0;
+
+}
+.center-div h1{
+	font-size: 60px;
+	word-spacing: 10px;
+	padding: 10px 0 20px 0;
+	color: #ffffff;
+	font-family: 'Playfair Display SC', serif;
+}
+.middle{
+	width: 100%;
+	height: auto;
+	background-color:#ffffff;
+}
+.middle-heading{
+	width: 100%;
+    padding-top:100px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.middle-heading h1{
+	font-size:2rem;
+	font-weight:bolder;
+}
+.middle-items{
+	padding-bottom: 100px!important;
+}
+
+.card{
+	text-align: center;
+	margin-top: 5%;
+	
+}
+.card-body{
+	background-color:#353945;
+}
+.card a{
+	color: #ffffff;
+}
+.card a:hover{
+	color: #FF8E00;
+	text-decoration:none;
+}
+
+.process{
+	width: 100%;
+    background-color:#EFEFEF;
+	height: auto;
+	text-align: center;
+	
+}
+.process_heading{
+	width: 100%;
+	padding-top: 100px!important;
+	text-align: center;
+	
+}
+.process_heading h1{
+		font-size: 1rem;
   
-    <!--choose Start-->
-    
-   <div class="choose">
-   <div class="choose-heading">
-   <h3 class="text-center">WHY CHOOSE</h3>
-  <p class="text-center bold">MOVERS</p>
-   	</div>
-   	<div class="container">
-   	<div class="row">
-   		<div class="left-box col-lg-12 col-12 text-center">
-   			<h1>&#10148;&nbsp SATISIED CUSTOMER</h1>
-   			<h1>&#10148;&nbsp QUALITY SERVICE</h1>
-   			<h1>&#10148;&nbsp ALL INDIA LOCATION</h1>
-   			<h1>&#10148;&nbsp MODERN VEHICLE FLEET</h1>
-   		</div>
-   	</div>
-   	</div>
-   </div>
+}
+.process_heading p{
+	 font-weight: bold;
+	  padding-top: 10px;
+	 word-spacing: 4px;
+	font-size: 2rem;
+	font-family: 'Playfair Display SC', serif;
+}
+.process_all{
+   width: 200px;
+  min-height: 200px;
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  margin-top: 20px;
+}
 
-   <!--choose END-->
+.process_card{
+	background: #ffffff;
+	
+}
+.process_body{
+	padding: 0 30px 30px 30px;
+}
 
-  
+.process_body h2{
+		margin-top:30px;
+	    font-size: 1.2rem;
+	   font-weight: 500;
+	transition: 0.2s;
+}
+.process_body h2:hover{
+	color:#FF8E00;
+	 cursor: pointer;
+	transition: 0.2s;
+	
+}
+.process_body p{
+	margin-top:30px;
+	font-size: 0.9rem;
+	color:#7f7c91;
+}
+.service-icons i{
+	color:#FF8E00;
+	padding-top:50px;
+	
+}
+.aboutus{
+	width: 100%;
+	background-color:#Ffffff;
+	text-align: center;
+	padding-bottom: 100px;
+	
+}
+.aboutus_heading{
+	padding-top: 100px;	
+}
 
-   
-    <!--customer start-->
-   
-    <div class="customer">
-   <div class="customer-heading">
-   <h3 class="text-center">HAPPY CUSTOMERS</h3>
+.aboutus_heading h1{
+	font-weight: bold;
+	font-size: 2rem;
+	color: #000000;
+}
+.iframe-container{
+	padding-top: 50px;
+	width: 100%;
+}
+.iframe-container iframe{
+    width: 100%;
+	height: 100vh;
+}
+.aboutus-work-heading{
+	padding-top: 50px;	
+	padding-bottom: 50px;	
+}
+.aboutus-work-heading h1{
+	font-size: 0.8rem;
+	font-weight: normal;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.count{
+	font-size: 2rem;
+	color:#FF8E00;
+	text-align: center;
+	font-family: roboto;
+}
+.choose{
+	width: 100%;
+	height:auto;
+   background-image:url(
+	../images/new1.jpg);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   background-attachment: fixed;
+}
+.choose-heading{
+	padding-top: 50px;
+		padding-bottom: 50px;
 
-   	</div>
-   	<div id="demo" class="carousel slide" data-ride="carousel">
+}
+.choose-heading h3{
+	font-size: 1.4rem;
+	color: #ffffff;
+	font-family: 'Playfair Display SC', serif;
+}
+.choose-heading p{
+	font-size: 3rem;
+	color: #ffffff;
+}
+.left-box{
+	padding-bottom: 50px;
+} 
 
-  <!-- Indicators -->
-  <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-  </ul>
+.left-box h1{
+	font-size: 1.4rem;
+	color: #ffffff;
+	margin: 20px;
+}
+.customer{
+	width: 100%;
+	height: auto;
+	padding: 80px 0;
+	background-color:#EFEFEF;
+	margin-top: 10%;
+}
+.carousel-inner{
+	margin-bottom: 50px;
+}
+.customer-heading h3{
+	font-size: 2rem;
+	font-weight: bold;
+	color: #000000;
+	word-spacing: 2px;
+}
+.customer-heading {
+padding-bottom: 30px;
+} 
 
-  <!-- The slideshow -->
-  <div class="container carousel-inner">
-    <div class="carousel-item active">
-    <div class="row">
-    	<div class="col-lg-4 col-md-4 col-12">
-    		<div class="box">
-    			<a href="#"><img src="images/men.jpg"/ class="img-fluid img-thumbnail"></a>
-    		<p class="m-4">Lorem Ipsum is simply   dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply </p>
-    		<h1>Rajeev Singh</h1>
-    			
-    		</div>
-    	</div>
-    	<div class="col-lg-4 col-md-4 col-12">
-    		<div class="box">
-    			<a href="#"><img src="images/men.jpg"/ class="img-fluid img-thumbnail"></a>
-    		<p class="m-4">Lorem Ipsum is simply   dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply </p>
-    		<h1>Rajeev Singh</h1>
-    			
-    		</div>
-    	</div>
-    	<div class="col-lg-4 col-md-4 col-12">
-    		<div class="box">
-    			<a href="#"><img src="images/men.jpg"/ class="img-fluid img-thumbnail"></a>
-    		<p class="m-4">Lorem Ipsum is simply   dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply </p>
-    		<h1>Rajeev Singh</h1>
-    			
-    		</div>
-    	</div>
-    	
-    </div>
-    </div>
-    <div class="carousel-item">
-         <div class="row">
-    	<div class="col-lg-4 col-md-4 col-12">
-    		<div class="box">
-    			<a href="#"><img src="images/men.jpg"/ class="img-fluid img-thumbnail"></a>
-    		<p class="m-4">Lorem Ipsum is simply   dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply </p>
-    		<h1>Rajeev Singh</h1>
-    			
-    		</div>
-    	</div>
-    	<div class="col-lg-4 col-md-4 col-12">
-    		<div class="box">
-    			<a href="#"><img src="images/men.jpg"/ class="img-fluid img-thumbnail"></a>
-    		<p class="m-4">Lorem Ipsum is simply   dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply </p>
-    		<h1>Rajeev Singh</h1>
-    			
-    		</div>
-    	</div>
-    	<div class="col-lg-4 col-md-4 col-12">
-    		<div class="box">
-    			<a href="#"><img src="images/men.jpg"/ class="img-fluid img-thumbnail"></a>
-    		<p class="m-4">Lorem Ipsum is simply   dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply </p>
-    		<h1>Rajeev Singh</h1>
-    			
-    		</div>
-    	</div>
-    	
-    </div>
-    </div>
-    <div class="carousel-item">
-       <div class="row">
-    	<div class="col-lg-4 col-md-4 col-12">
-    		<div class="box">
-    			<a href="#"><img src="images/men.jpg"/ class="img-fluid img-thumbnail"></a>
-    		<p class="m-4">Lorem Ipsum is simply   dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply </p>
-    		<h1>Rajeev Singh</h1>
-    			
-    		</div>
-    	</div>
-    	<div class="col-lg-4 col-md-4 col-12">
-    		<div class="box">
-    			<a href="#"><img src="images/men.jpg"/ class="img-fluid img-thumbnail"></a>
-    		<p class="m-4">Lorem Ipsum is simply   dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply </p>
-    		<h1>Rajeev Singh</h1>
-    			
-    		</div>
-    	</div>
-    	<div class="col-lg-4 col-md-4 col-12">
-    		<div class="box">
-    			<a href="#"><img src="images/men.jpg"/ class="img-fluid img-thumbnail"></a>
-    		<p class="m-4">Lorem Ipsum is simply   dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply </p>
-    		<h1>Rajeev Singh</h1>
-    			
-    		</div>
-    	</div>
-    	
-    </div>
-    </div>
-  </div>
+.box{
+	text-align: center;
+	border: 1px solid rgba(0,0,0,0.2);
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+	border-radius: 2px;
+	transition: 0.2s;
+	
+}
 
-  <!-- Left and right controls -->
-  <a class="carousel-control-prev" href="#demo" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
-</div>
-  	</div>
-  	 
-  	 <!--customer end-->
-  	 
-  	 <!--contact start-->
-  
-<div class="contactus" id="contactdiv">
-<div class="contactus_heading">
-	<h1>CONTACT US</h1>
-</div>
-<div class="container contact-form" data-aos="zoom-in" data-aos-delay="200">
-            <div class="contact-image">
-                <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
-            </div>
-          <form onSubmit="return rajeshform()">
-                <h3>Drop Us a Message</h3>
-               <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <input id="uname" type="text" name="uname" class="form-control" placeholder="Your Name *" value="" />
-                             <div id="error" class="text"></div>
-                        </div>
-                        <div class="form-group">
-                            <input id="email" type="text" name="email" class="form-control" placeholder="Your Email *" value="" />
-                            <div id="error_email" class="text"></div>
-                        </div>
-                        <div class="form-group">
-                            <input id="phone" type="text" name="phone" class="form-control" placeholder="Your Phone *" value="" />
-                            <div id="error_phone" class="text"></div>
-                        </div>
-                        <div class="form-group">
-                            <input type="submit" name="btnSubmit" class="btnContact" value="Send" />
-                           
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <textarea id="message" name="message" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
-                           <div id="error_message" class="text"></div>
-                        </div>
-                    </div>
-                </div>
-            </form>
-</div>
-</div>
-</div>
-</div>
- 
-   
-  <!--contact end-->
-  
-  
+.box h1{
+	margin: 0;
+	font-size: 1.4rem;
+	padding-bottom: 20px;
+}
+.box:hover{
+	background: #16c9f6;
+	 cursor: pointer;	
+	 transition: 0.2s;
+}
+.box p{
+	font-size: 0.8rem;
+	font-weight: lighter;
+	color:#7f7c91;
+} 
 
+.box:hover p{
+	color: #ffffff;
+	
+}
+.carousel-indicators{
+	position: absolute;
+	right: 0;
+	bottom: -60px !important;
+}
+.carousel-indicators li{
+background-color: #16c9f6 !important;
+}
+.box a{
+	position: relative;
+}
+.box a:after{
+	content: "\f10d";
+	font-family: FontAwesome;
+	width: 40px;
+	height: 40px;
+	background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+	color: white;
+	position: absolute;
+	top: 120%;
+	left: 70%;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	
+}
 
-  	<!-- Footer -->
-  	  <div class="footer">
-  	
-<footer class="page-footer font-small pt-4">
+.box a img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-top: 20px;
+}
 
-  <!-- Footer Links -->
-  <div class="container text-center text-md-left">
+.contactus{
+	width: 100%;
+	text-align: center;	
+}
 
-    <!-- Footer links -->
-    <div class="row text-center text-md-left mt-3 pb-3">
+.contactus_heading h1{
+	font-weight: bold;
+	font-size: 2rem;
+	color: #000000;
+	margin-top: 100px;
+	
+}
 
-      <!-- Grid column -->
-      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-       <a class="navbar-brand" href="#">MOVERS</a>
-        <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-          consectetur
-          adipisicing elit.</p>
-      </div>
-      <!-- Grid column -->
-
-      <hr class="w-100 clearfix d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-        <h6 class="text-uppercase mb-4 font-weight-bold text-white">Products</h6>
-        <p>
-        <div class="widget socail-icons">
-          <ul>
-                  <li style="margin-bottom:10px;"><a class="fb" href="https://www.facebook.com/"><i class="fa fa-facebook" style="border-radius:50px; text-decoration: none; padding:6px 10px; background-color:#fff; opacity:0.5;"></i></a><span> &nbsp Facebook</span></li>
-                              <li style="margin-bottom:10px;"><a class="twitter" href="https://twitter.com/"><i class="fa fa-twitter" style="border-radius:50px; padding:6px 7px; background-color:#fff; opacity:0.5;"></i></a><span> &nbsp Twitter</span></li>
-                              <li style="margin-bottom:10px;"><a class="linkedin" href="https://www.linkedin.com/"><i class="fa fa-linkedin" style="border-radius:50px; padding:6px 7px; background-color:#fff; opacity:0.5;"></i></a><span> &nbsp Linkedin</span></li>
-                              <li style="margin-bottom:10px;"><a class="googleplus" href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" style="border-radius:50px; padding:6px 7px; background-color:#fff; opacity:0.5;"></i></a><span> &nbsp Instagram</span></li>
-                           </ul>
-                        </div>
-                        <!-- Follow Us End -->
-      </div>
-      <!-- Grid column -->
-
-      <hr class="w-100 clearfix d-md-none">
-
-      <!-- Grid column -->
-      <div class="quick_links col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-        <h6 class="text-uppercase mb-4 font-weight-bold text-white">Quick links</h6>
-        <p>
-          <a href="#!">Your Account</a>
-        </p>
-        <p>
-          <a href="#!">Become an Affiliate</a>
-        </p>
-        <p>
-          <a href="#!">Shipping Rates</a>
-        </p>
-        <p>
-          <a href="#!">Help</a>
-        </p>
-      </div>
-
-      <!-- Grid column -->
-      <hr class="w-100 clearfix d-md-none">
-
-      <!-- Grid column -->
-      <div class="footer_contact col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-         <h6 class="text-uppercase mb-4 font-weight-bold text-white">Contact</h6>
-        <p>
-          <a href="#"><i class="fa-mr-3 fa fa-map-marker" aria-hidden="true"></i></a>&nbsp New York, NY 10012, US</p> 
-        <p>
-           <a href="#"><i class="fa-mr-3 fa fa-envelope" aria-hidden="true"></i></a>&nbsp info@gmail.com</p>
-        <p>
-            <a href="#"><i class="fa-mr-3 fa fa-phone-square" aria-hidden="true"></i></a>&nbsp + 01 234 567 88</p>
-        <p>
-          <a href="#"><i class="fa-mr-3 fa fa-phone" aria-hidden="true"></i></a>&nbsp + 01 234 567 89</p>
-      </div>
-      <!-- Grid column -->
-
-    </div>
-    <!-- Footer links -->
-
-    <hr>
-
-    <!-- Grid row -->
-    <div class="row d-flex align-items-center">
-
-      <!-- Grid column -->
-      <div class=" copyright col-md-7 col-lg-8">
-
-        <!--Copyright-->
-        <p class="text-center text-md-left">© 2020 Copyright:
-     <h1>Rohit bootstrap </h1>
-        </p>
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-md-5 col-lg-4 ml-lg-0">
-
-        <!-- Social buttons -->
-        <div class="text-center text-md-right">
-          <ul class="list-unstyled list-inline">
-            <li class="list-inline-item">
-              <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                <i class="fab fa-google-plus-g"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-
-      </div>
-      <!-- Grid column -->
-
-    </div>
-    <!-- Grid row -->
-<div class="scrolltop float-right">
-	<i class="fa fa-arrow-up" onClick="topFunction()" id="myBtn"></i>
-</div>
-  </div>
-  <!-- Footer Links -->
-
-
-
-
-</footer>
-  </div>
-<!-- Footer -->
-  	
-  	
-  	
-  	
-  	
- 
-   
-    
-     
-      
-     
-        
-         
-          
-     
-     
-
- 
-   	
-
-   
-   
-   
-  
-   
-   
-   
-   
-
-   
-  
-   
-   
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script src="js/jquery.counterup.min.js"></script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-   
-  
-  <script>
-	  jQuery(document).ready(function($) {
-            $('.count').counterUp({
-                delay: 200,
-                time: 5000
-            });
-        });
-	  
-	  //get the button:
-	  mybutton = document.getElementById("myBtn");
-	  
-	  //when the user scroll 20px from top show the button
-	  window.onscroll = function() {scrollFunction()};
-	  
-	  function scrollFunction(){
-		  if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
-			  mybutton.style.display = "block";
-		  } else {
-			   mybutton.style.display = "none";
-		  }
-	  }
-	  
-	  //when the user clicks on button, scroll to top of document
-	  function topFunction(){
-		  document.body.scrollTop = 0; // for safari
-		  document.documentElement.scrollTop = 0; // for chrome,firefox,opera
-	  }
-	 
-	  
-	  //Animate on scroll
-	    AOS.init();
-	  
-	 
-	  
-	   //contact form
-	   function rajeshform(){		   
-		     
-		   var uname = document.getElementById('uname').value;
-	       var email = document.getElementById('email').value;
-		   var phone = document.getElementById('phone').value;
-		   var phone = document.getElementById('message').value;
-	       
-		   document .getElementById('error').style.display="none";
-		   document .getElementById ('error_email').style.display="none"; 
-		   document .getElementById ('error_phone').style.display="none";
-		   document .getElementById ('error_message').style.display="none";
-		   
-		   var check=1;
-		   
-		   
-		   if (uname ===""){
-			document .getElementById('error').innerHTML="Name is required";
-			 document .getElementById('error').style.display="block";
-			  check=0;
-		
-		 }
-		    
-		  if (email ===""){
-			document .getElementById('error_email').innerHTML="Email is required";
-			 document .getElementById('error_email').style.display="block";
-			  check=0;
-		
-		 }
-		  
-		  if (phone ===""){
-			document .getElementById('error_phone').innerHTML="Phoneno. is required";
-			 document .getElementById('error_phone').style.display="block";
-			  check=0;
-		
-		 }
-	      
-		  if (phone ===""){
-			document .getElementById('error_message').innerHTML="Message is required";
-			 document .getElementById('error_message').style.display="block";
-			  check=0;
-		
-		 }
-		  if(check === 0){
-                    return false;
-                }	
-			
-
-	   }
-	  
-	  </script>
-  </body>
-</html>
-
+.contact-form{
+       background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #FF8E00;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}	
+.footer{
+	width: 100%;
+	margin-top: 10%;
+	background: #003f91;	
+	 color: #c9c9c9 ;
+}
+.footer_contact p{
+		font-size: 0.8rem;	
+}
+.quick_links a{
+	text-decoration: none;
+    color: #c9c9c9 ;
+	font-size: 0.8rem;	
+}
+.quick_links a:hover{
+color:#FF8E00;
+}
+.footer_contact a{
+	color:#FF8E00;
+}
+.copyright h1{
+	font-size: 1rem;
+	color:#FF8E00;
+}
+#myBtn{
+	
+	position: fixed;
+	bottom: 20px;
+	z-index: 99;
+	border: none;
+	color: aliceblue;
+	background:  #16c9f6;
+	padding: 10px;
+	border-radius: 10px;
+	
+}
+#myBtn:hover{
+	background: #606060;
+}
+	
+@media only screen and (max-width: 600px) {
+#myBtn{
+	right:10px;
+	}
 
